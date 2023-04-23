@@ -1,0 +1,89 @@
+:root{
+    --teal: black;
+    --teal_hover: #2798ec;
+}
+.bh{
+    width:42px;
+    height:42px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h-font{
+    font-family: 'Merienda', cursive;
+    color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    
+}
+.custom-bg{
+    background-color: var(--teal);
+    border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
+}
+.navbar-nav a{
+    color: black !important;
+}
+.dropdown-menu a{
+    color: black !important;
+}
+.user-img{
+    width: 400px;
+    position: absolute;
+    right: 6%;
+    bottom: 6%;
+}
+.text-box{
+    margin-top: 0%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 12px;
+}
+.text-box p{
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    margin-left: 7%;
+    font-size: 12px;
+}
+.text-box h1{
+    font-family: 'Merienda', cursive;
+    font-size: 100px;
+    line-height: 150px;
+    color: black;
+    margin-left: 6%;
+}
+.auto-input{
+    font-family: 'Merienda', cursive;
+    font-size: 115px;
+    line-height: 120px;
+    color: black;
+    margin-left: 0%;
+}
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+.custom-alert{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+}
